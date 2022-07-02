@@ -17,6 +17,7 @@ export class ServicesemployeeserviceService {
 
   //return all the employee
   getAllEmployees():Employee[]{
+    console.log("returning")
     return this.allEmployees;
   }
 
